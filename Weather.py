@@ -1,7 +1,7 @@
 import requests
 
 
-city = 'Оленегорск'
+city = 'оленегорск'
 url = 'https://api.openweathermap.org/data/2.5/weather?q='+city+'&units=metric&lang=ru&appid=93f00855b8c77a06ebe3da8aedbccbc4'
 
 weather_data = requests.get(url).json()
